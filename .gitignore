@@ -3,6 +3,6 @@
 
 .DS_Store
 
-public
+public/build
 yarn.lock
 package-lock.json
