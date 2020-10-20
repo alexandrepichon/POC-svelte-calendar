@@ -1,4 +1,5 @@
 <script>
+	import { afterUpdate } from 'svelte';
 	import FullCalendar from 'svelte-fullcalendar';
 	import timeGridPlugin from '@fullcalendar/timegrid';
 
@@ -9,9 +10,14 @@
 		plugins: [timeGridPlugin],
 		slotMinTime: '08:00:00',
 		height: 650,
-		events: sessions,
+		events: {sessions},
 	};
 	console.log(options);
+
+	afterUpdate(() => {
+		options.events = sessions;
+		options = { ...options };
+	})
 
 </script>
 
