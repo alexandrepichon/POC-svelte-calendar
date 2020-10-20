@@ -9,10 +9,11 @@
 		initialView: 'timeGridDay',
 		plugins: [timeGridPlugin],
 		slotMinTime: '08:00:00',
-		height: 650,
+		height: 860,
+		stickyHeaderDates: false,
+		allDaySlot: false,
 		events: {sessions},
 	};
-	console.log(options);
 
 	afterUpdate(() => {
 		options.events = sessions;
@@ -21,5 +22,4 @@
 
 </script>
 
-<h2>Sessions calendar</h2>
-<FullCalendar {options} />
+<FullCalendar {options} style="margin-bottom: 5rem;"/>
