@@ -1,7 +1,7 @@
 <script>
-	import Config from './Config.svelte';
-	import Calendar from './Calendar.svelte';
-	import generateSessions from './SessionGenerator';
+	import Config from './components/Config.svelte';
+	import Calendar from './components/Calendar.svelte';
+	import generateSessions from './services/SessionGenerator';
 
 	let sessions = [];
 	function configChanged(event){
