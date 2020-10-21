@@ -15,3 +15,8 @@ Day view
 Day view
  - Still comfortable with 640 sessions per day
  - Start to feel slowness over 200 sessions per day
+
+
+## Audit
+
+[Google chrome Lighthouse](https://alexandrepichon.github.io/POC-svelte-calendar/public/lighthouse-audit.html)
