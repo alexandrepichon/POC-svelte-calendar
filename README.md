@@ -13,7 +13,7 @@ Day view
 ### Laptop [2014](https://www.gigabyte.com/fr/Laptop/P34G-v2#kf)
 
 Day view
- - Still comfortable with 640 sessions per day
+ - Uncomfortable use over 500 sessions per day
  - Start to feel slowness over 200 sessions per day
 
 
