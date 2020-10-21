@@ -15,7 +15,7 @@ function generateSessions(config){
 	const start = new Date();
 	start.setHours(8, 0, 0, 0);
 
-	return Array.from(Array(config.sessionsPerDay).keys()).map(sessionIndex => {
+	return Array.from(Array(config.sessionsPerRoom).keys()).map(sessionIndex => {
 		const sessionNumber = sessionIndex + 1;
 		return Array.from(Array(config.rooms).keys()).map(roomIndex => {
 			const roomNumber = roomIndex + 1;

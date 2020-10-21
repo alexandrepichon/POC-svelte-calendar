@@ -3,13 +3,13 @@
 	const dispatch = createEventDispatcher();
 
 	let sessionsLength = 60;
-	let sessionsPerDay = 15;
+	let sessionsPerRoom = 15;
 	let rooms = 5;
 
 	function onFormSubmit(e) {
 		dispatch('submit', {
 			sessionsLength,
-			sessionsPerDay,
+			sessionsPerRoom,
 			rooms,
 		});
 	}
@@ -32,8 +32,8 @@
 <form on:submit|preventDefault={onFormSubmit}>
 	<label for="sessionsLength">Sessions length (min):</label>
 	<input type=number bind:value={sessionsLength} id="sessionsLength" step=15 min=15/>
-	<label for="sessionsPerDay">Sessions per day:</label>
-	<input type=number bind:value={sessionsPerDay} id="sessionsPerDay"/>
+	<label for="sessionsPerRoom">Sessions per room:</label>
+	<input type=number bind:value={sessionsPerRoom} id="sessionsPerRoom"/>
 	<label for="rooms">Rooms:</label>
 	<input type=number bind:value={rooms} id="rooms" max=10/>
 	<button type=submit>Generate sessions</button>

@@ -12,6 +12,11 @@
 		height: 860,
 		stickyHeaderDates: false,
 		allDaySlot: false,
+		headerToolbar: {
+			start: '',
+			center: 'title',
+			end: 'prev,next today timeGridDay timeGridWeek'
+		},
 		events: {sessions},
 	};
 
@@ -22,4 +27,4 @@
 
 </script>
 
-<FullCalendar {options} style="margin-bottom: 5rem;"/>
+<FullCalendar {options} style="margin: 1rem;"/>
