@@ -26,7 +26,6 @@ function generateSessions(config){
 				title: `Session ${sessionNumber} - Room ${roomNumber}`,
 				start: new Date(start.getTime() + config.sessionsLength * sessionIndex * 60000),
 				end: new Date(start.getTime() + config.sessionsLength * sessionNumber * 60000),
-				allDay: false,
 				backgroundColor: colors[roomIndex],
 			}
 		});

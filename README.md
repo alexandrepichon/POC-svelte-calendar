@@ -16,4 +16,4 @@ Start to feel slowness over 30 sessions per day
 Day view
 
 Still comfortable with 640 sessions per day
-Start to feel slowness over 250 sessions per day
+Start to feel slowness over 200 sessions per day
