@@ -18,5 +18,11 @@ Day view
 
 
 ## Audit
-
 [Google chrome Lighthouse](https://alexandrepichon.github.io/POC-svelte-calendar/public/lighthouse-audit.html)
+
+## Libraries
+- [svelte-fullcalendar](https://github.com/YogliB/svelte-fullcalendar)
+- [FullCalendar](https://github.com/fullcalendar/fullcalendar)
+- [svelte](https://github.com/sveltejs/svelte)
+
+Licences: MIT
